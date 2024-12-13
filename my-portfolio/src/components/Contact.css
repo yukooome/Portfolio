@@ -1,0 +1,44 @@
+.contact-section {
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #0b3d91, #000000);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-section h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-shadow: 0 0 15px #00d4ff;
+  color: aliceblue;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-links a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), transparent);
+  z-index: -1;
+}

@@ -1,0 +1,85 @@
+.projects {
+  padding: 100px 20px;
+  background: linear-gradient(to top, #0b3d91, #000000);
+  color: white;
+  position: relative;
+}
+
+.projects-container {
+  width: 80%;  
+  margin: 0 auto; 
+}
+
+.projects h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px; 
+  color: #ffffff;
+  text-shadow: 0 0 10px #00d4ff;
+  text-align: left;  
+  border-bottom: 2px solid #00d4ff; 
+  padding-bottom: 10px;
+}
+
+.projects-grid, .projects-carousel {
+  display: flex;
+  justify-content: start; 
+  gap: 20px;
+  overflow-x: auto; 
+  padding: 20px 0;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;  
+  text-align: center;
+  transition: transform 0.3s ease;
+  flex-shrink: 0; 
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.planet {
+  width: 80px;
+  height: 80px;
+  background-color: #6a0dad;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  position: relative;
+  animation: orbit 5s infinite linear;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(10px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(10px);
+  }
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #00d4ff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.project-card a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-shadow: 0 0 10px #00d4ff;
+}
