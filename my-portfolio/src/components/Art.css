@@ -1,0 +1,47 @@
+.projects-art {
+    padding: 20px 20px 20px; /* Réduit le padding en haut pour rapprocher le contenu du haut */
+    background: linear-gradient(to bottom, #0b3d91, #000000);
+    color: white;
+    position: relative;
+}
+
+.projects-container-art {
+    width: 80%;  
+    margin: 0 auto;
+    padding-top: 0; /* Élimine tout padding supérieur */
+}
+
+.projects-art h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+    color: #ffffff;
+    text-shadow: 0 0 10px #00d4ff;
+    text-align: left;  
+    border-bottom: 2px solid #00d4ff; 
+    padding-bottom: 10px;
+}
+
+.projects-grid-art {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Vous pouvez ajuster cette valeur pour un plus grand nombre de colonnes */
+    gap: 20px;
+}
+
+.project-image-art {
+    position: relative;
+}
+
+.grid-image-art {
+    width: 100%;
+    height: 200px; /* Hauteur fixe pour toutes les cartes */
+    object-fit: cover; /* Cela permet à l'image de s'ajuster à la taille sans déformation */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-image-art:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

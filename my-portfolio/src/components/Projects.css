@@ -3,6 +3,7 @@
   background: linear-gradient(to top, #0b3d91, #000000);
   color: white;
   position: relative;
+  /* height: 60vh; */
 }
 
 .projects-container {
@@ -152,3 +153,6 @@
 .digital-project-btn:focus {
   outline: none;
 }
+
+
+
