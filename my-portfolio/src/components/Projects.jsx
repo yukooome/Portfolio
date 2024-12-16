@@ -14,13 +14,13 @@ function Projects() {
   ];
 
   const digitalProjects = [
-    { title: 'Projet Numérique 1', description: 'Description du projet numérique 1', link: '#' },
+    { title: 'Pokémon', description: 'Carte postale Pokémon', link: './src/img/pokemon-card.png' },
     { title: 'Projet Numérique 2', description: 'Description du projet numérique 2', link: '#' },
     { title: 'Projet Numérique 3', description: 'Description du projet numérique 3', link: '#' },
 
-    { title: 'Projet Numérique 4', description: 'Description du projet numérique 4', link: '#' },
-    { title: 'Projet Numérique 5', description: 'Description du projet numérique 5', link: '#' },
-    { title: 'Projet Numérique 6', description: 'Description du projet numérique 6', link: '#' },
+    // { title: 'Projet Numérique 4', description: 'Description du projet numérique 4', link: '#' },
+    // { title: 'Projet Numérique 5', description: 'Description du projet numérique 5', link: '#' },
+    // { title: 'Projet Numérique 6', description: 'Description du projet numérique 6', link: '#' },
   ];
 
   const artisticProjects = [
@@ -38,7 +38,7 @@ function Projects() {
   const renderProjects = (projects) => {
     return projects.map((project, index) => (
       <div key={index} className="project-card">
-        <div className="planet"></div>
+        {/* <div className="planet"></div> */}
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <a href={project.link} target="_blank" rel="noopener noreferrer">
