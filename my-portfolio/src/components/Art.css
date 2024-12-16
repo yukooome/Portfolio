@@ -1,5 +1,5 @@
 .projects-art {
-    padding: 20px 20px 20px; /* Réduit le padding en haut pour rapprocher le contenu du haut */
+    padding: 20px 20px 20px; 
     background: linear-gradient(to bottom, #0b3d91, #000000);
     color: white;
     position: relative;
@@ -8,7 +8,7 @@
 .projects-container-art {
     width: 80%;  
     margin: 0 auto;
-    padding-top: 0; /* Élimine tout padding supérieur */
+    padding-top: 0; 
 }
 
 .projects-art h2 {
@@ -24,24 +24,55 @@
 
 .projects-grid-art {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Vous pouvez ajuster cette valeur pour un plus grand nombre de colonnes */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     gap: 20px;
 }
 
 .project-image-art {
     position: relative;
+    overflow: hidden;
 }
 
 .grid-image-art {
     width: 100%;
-    height: 200px; /* Hauteur fixe pour toutes les cartes */
-    object-fit: cover; /* Cela permet à l'image de s'ajuster à la taille sans déformation */
+    height: 200px; 
+    object-fit: cover; 
     cursor: pointer;
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 .grid-image-art:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%); /* Griser l'image */
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.project-image-art:hover .project-info {
+    opacity: 1; /* Afficher les informations au survol */
+}
+
+.project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
 }
