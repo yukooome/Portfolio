@@ -20,15 +20,6 @@ function Projects() {
     { title: 'Projet Numérique 3', description: 'Description du projet numérique 3', link: '#' },
   ];
 
-  // const artisticProjects = [
-  //   { title: 'Projet Artistique 1', description: 'Description du projet artistique 1', link: '#' },
-  //   { title: 'Projet Artistique 2', description: 'Description du projet artistique 2', link: '#' },
-  //   { title: 'Projet Artistique 3', description: 'Description du projet artistique 3', link: '#' },
-  //   { title: 'Projet Artistique 4', description: 'Description du projet artistique 4', link: '#' },
-  //   { title: 'Projet Artistique 5', description: 'Description du projet artistique 5', link: '#' },
-  //   { title: 'Projet Artistique 6', description: 'Description du projet artistique 6', link: '#' },
-  // ];
-
   const openModal = (image) => {
     setModalImage(image);
     setIsModalOpen(true);
@@ -73,10 +64,6 @@ function Projects() {
           {renderDigitalProjects(digitalProjects)}
         </div>
 
-        {/* <h2>Projet Artistique</h2>
-        <div className="projects-carousel">
-          {renderOtherProjects(artisticProjects)}
-        </div> */}
       </div>
 
       {isModalOpen && (

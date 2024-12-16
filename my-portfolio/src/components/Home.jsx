@@ -13,7 +13,7 @@ function Home() {
 
   const competences = [
     'HTML', 'CSS', 'JavaScript', 'React','Node.js','Bootstrap', 'Tailwind CSS', 'SASS/SCSS', 'Figma','Git','GitHub', 'Animate', 
-    'Photoshop', 'Illustrator', 'Teams', 'One Drive'
+    'Photoshop', 'Illustrator', 'Dessin','Peinture', 'Teams', 'One Drive'
   ];
 
   return (
