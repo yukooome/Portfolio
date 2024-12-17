@@ -27,7 +27,7 @@ function Home() {
             alt="astro"
             className="profile-image"
           />
-          <h2>Salut les artistes, moi c'est MAÏSSÂA</h2>
+          <h2>Hello World, ici MAÏSSÂA.</h2>
           <p>Bienvenue dans ton voyage à travers mon univers créatif et technique, où le code rencontre l'art pour donner vie à des expériences uniques.</p>
           <button onClick={toggleModal} className="open-modal-btn">
             En savoir plus
@@ -81,6 +81,7 @@ function Home() {
             <span className="close-btn" onClick={toggleModal}>
               &times;
             </span>
+            <img src="src/img/astro-world.png" alt="" className='image-modal-home' />
             <p>
             Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Je suis actuellement en formation en développement front-end, où j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs comme Illustrator, Animate et Photoshop.
 

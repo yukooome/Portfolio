@@ -1,5 +1,5 @@
 .contact-section {
-  padding: 100px 20px;
+  padding: 50px 20px;
   background: linear-gradient(to top, #0b3d91, #000000);
   color: white;
   text-align: center;
@@ -13,6 +13,13 @@
   margin-bottom: 40px;
   text-shadow: 0 0 15px #00d4ff;
   color: aliceblue;
+}
+
+.contact-section img{
+  width: 70px; 
+  height: 70px;
+  margin-bottom: 50px;
+  object-fit: contain;
 }
 
 .contact-section p {

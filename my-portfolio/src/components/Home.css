@@ -46,10 +46,11 @@
 .profile-image {
   width: 250px;
   height: 250px;
-  /* background-color: #ffffff; */
-  border-radius: 50%;
   margin-bottom: 20px;
+  padding-right: 35px;
+  /* j'ai essayé de center */
 }
+
 
 .open-modal-btn {
   background-color: #41d239; /* Couleur verte néon */
@@ -107,6 +108,14 @@
   line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
   font-size: 1rem; /* Ajuste la taille de la police pour la modal */
   color: #333; /* Assure-toi que le texte est lisible sur le fond clair */
+}
+
+.image-modal-home{
+  width: 200px;
+  height: 250px;
+  /* background-color: #ffffff; */
+  /* border-radius: 50%; */
+  margin-bottom: 20px;
 }
 
 
