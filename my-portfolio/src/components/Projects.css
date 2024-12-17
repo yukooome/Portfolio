@@ -113,6 +113,14 @@
   overflow: auto;
 }
 
+.modal-content p {
+  margin-bottom: 15px; /* Ajouter un espacement entre les paragraphes */
+  line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
+  font-size: 1rem; /* Ajuste la taille de la police pour la modal */
+  color: #333; /* Assure-toi que le texte est lisible sur le fond clair */
+}
+
+
 .modal-image {
   max-width: 100%;
   max-height: 100%;

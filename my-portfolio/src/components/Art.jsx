@@ -45,6 +45,10 @@ function Art() {
     <section id="projects-art" className="projects-art">
       <div className="projects-container-art">
         <h2>Projet Artistique</h2>
+        <p>Depuis mon enfance, le dessin a toujours été une passion, mais j'ai pris une pause pendant plusieurs années, sans réelle raison autre que le cours de la vie. J'ai renoué avec l'art pendant la période du Covid, en découvrant la peinture, qui est devenue un véritable moyen d'expression pour moi. Depuis, je me perfectionne chaque jour, en apprenant et en expérimentant de nouvelles techniques. L'art, en particulier l'univers du manga, reste pour moi une source constante de créativité et de plaisir.
+    Voici quelques-unes de mes œuvres, vous pourrez en découvrir plus en cliquant sur le lien <a className='lien' href="https://www.instagram.com/yukooo_art/?next=%2Fton-profile%2F" target="_blank">Instagram</a>.
+</p>
+
         <div className="projects-grid-art">
           {renderOtherProjects(artisticProjects)}
         </div>

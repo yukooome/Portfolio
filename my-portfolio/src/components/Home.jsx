@@ -82,11 +82,17 @@ function Home() {
               &times;
             </span>
             <p>
-            Salut les artistes, je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Actuellement en formation en développement frontend, j'apprends à maîtriser différents langages comme JavaScript, React, HTML et CSS, tout en explorant des outils de création comme Illustrator, Animate et Photoshop. Ce parcours m'a permis de combiner mes compétences techniques avec ma passion pour l'art, le dessin et la peinture, des domaines qui m'ont toujours animée.
+            Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Je suis actuellement en formation en développement front-end, où j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs comme Illustrator, Animate et Photoshop.
 
-Ma passion pour le manga et l'art se reflète profondément dans mes projets. C'est d'ailleurs ce qui m'a poussée à me diriger vers le frontend : la possibilité de créer des interfaces visuelles est une manière pour moi d'allier ma créativité à mes compétences techniques. Que ce soit à travers mes dessins à la main, mes peintures sur toile ou mes créations numériques, chaque projet est une occasion de mettre en avant mon amour pour l'art et de développer des expériences uniques.
+J'ai découvert le front-end à un moment où je me sentais un peu perdue, sans savoir quelle direction prendre ni avoir trouvé quelque chose qui me passionnait vraiment. Quand je suis tombée sur ce domaine, j'ai ressenti un grand soulagement, comme si j'avais enfin trouvé ma voie. Le fait de pouvoir allier la technique à la créativité m'a permis de m'épanouir pleinement.
 
-Je suis constamment en quête de nouveaux défis pour perfectionner mes compétences, que ce soit dans le domaine du développement web ou de l'art numérique. Si tu veux découvrir mes projets ou discuter d’une collaboration, n’hésite pas à me contacter !
+C'est un monde où il faut constamment se remettre en question et apprendre. Pour quelqu'un comme moi, qui n'aime pas se contenter de ce qui est acquis et qui adore découvrir de nouvelles choses, c'est une véritable source de motivation. L'idée de toujours pouvoir progresser et me perfectionner m'anime au quotidien.
+
+Ce parcours me permet de combiner mes compétences techniques avec ma passion pour l'art, le dessin et la peinture, des domaines qui m'ont toujours profondément inspirée. Ma passion pour le manga et l'art se reflète dans chacun de mes projets. C'est d'ailleurs ce qui m'a naturellement orientée vers le front-end : créer des interfaces visuelles est un moyen parfait d'allier créativité et savoir-faire technique.
+
+Que ce soit à travers mes dessins, mes peintures sur toile ou mes créations numériques, chaque projet est une occasion de partager mon amour pour l'art et d'innover. Je suis toujours en quête de nouveaux défis pour continuer à apprendre, que ce soit dans le développement web ou dans l'art numérique.
+
+Si tu souhaites découvrir mes projets ou discuter d'une collaboration, n'hésite pas à me contacter !
             </p>
           </div>
         </div>

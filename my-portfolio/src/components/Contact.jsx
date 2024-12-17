@@ -11,6 +11,11 @@ function Contact() {
         <p><a href="https://www.linkedin.com/in/ma%C3%AFss%C3%A2a-elbhi-32706830b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         <p><a href="https://www.instagram.com/yukooo_art/?next=%2Fton-profile%2F" target="_blank" rel="noopener noreferrer">Instagram</a></p>
       </div>
+      
+      {/* Copyright */}
+      <footer className="contact-footer">
+        <p>&copy; {new Date().getFullYear()} Maissaa ElBhi. Tous droits réservés.</p>
+      </footer>
     </section>
   );
 }

@@ -76,3 +76,13 @@
 .project-info p {
     font-size: 1rem;
 }
+
+
+.lien{
+    color: #00d4ff;
+}
+
+.lien:hover{
+    color:#00d4ff;
+    text-shadow: 0px 0px 10px #ddf7fc;
+}
