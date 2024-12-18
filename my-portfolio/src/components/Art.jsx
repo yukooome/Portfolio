@@ -17,10 +17,10 @@ function Art() {
     { title: 'Gohan', description: 'Tableau', link: './src/img/gohancouleur.jpg', size: '50x40cm' },
     { title: 'Itachi', description: 'Tableau', link: './src/img/itachi.jpg', size: '50x40cm' },
     { title: 'Broly', description: 'Tableau', link: './src/img/broly.jpg', size: '50x40cm' },
-    { title: 'Guts', description: 'Tableau', link: './src/img/berserkcolo.jpg', size: '50x40cm' },
-    { title: 'Kaneki Ken', description: 'Tableau', link: './src/img/ken.jpg', size: '50x40cm' },
+    { title: 'Ace', description: 'Tableau', link: './src/img/ace.jpg', size: '50x40cm' },
+    { title: 'Kakashi', description: 'Tableau', link: './src/img/kakashicouleur.jpg', size: '50x40cm' },
     { title: 'Luffy', description: 'Tableau', link: './src/img/luffychap.jpg', size: '50x40cm' },
-    { title: 'Asta', description: 'Tableau', link: './src/img/asta.jpg', size: '50x40cm' },
+    { title: 'Goku', description: 'Tableau', link: './src/img/gokucouleur.jpg', size: '50x40cm' },
   ];
 
   const renderOtherProjects = (projects) => {

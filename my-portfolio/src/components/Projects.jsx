@@ -27,12 +27,13 @@ function Projects() {
       titre : "Croquis de Hiei",
       text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Hiei, un personnage culte du manga Yu Yu Hakusho. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
      },
-    { title: 'Procreate', description: 'Croquis de Toji', link: './src/img/TojiProcre.jpg',
+    { title: 'Procreate', description: 'Croquis de Toji', link: './src/img/proToji.jpg',
       titre : "Croquis de Toji",
       text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Toji, un personnage culte du manga Jijutsu Kaisen. Cet exercice m'a permis de m'entraîner et d'affiner la réalisation de ce personnage.'", },
 
-    { title: 'Photoshop', description: 'description', link: '',
-      text : "", },
+      { title: 'Procreate', description: 'Croquis de Zaraki', link: './src/img/proZaraki.jpg',
+        titre : "Croquis de Zaraki",
+        text : "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique.", },
 
       { title: 'Animate', description: 'description', link: '',
         text : "", },
@@ -76,6 +77,8 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-container">
         <h2>Projets web</h2>
+        <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité : le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.
+        </p>
         <div className="projects-grid">
           {renderOtherProjects(featuredProjects)}
         </div>
