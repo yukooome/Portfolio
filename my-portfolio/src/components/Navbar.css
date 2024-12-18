@@ -5,20 +5,29 @@
   width: 100%;
   padding: 20px;
   z-index: 1;
+  display: flex; /* Utilise Flexbox pour centrer les éléments horizontalement */
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+}
+
+.logo {
+  margin-right: 20px; /* Ajoute un espacement entre le logo et les éléments du menu */
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centre les liens de navigation */
   align-items: center; /* Aligne les éléments verticalement */
   color: white;
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les espacements par défaut */
 }
 
 .navbar li {
-  margin: 0 30px;
+  margin: 0 30px; /* Espacement entre les éléments de la liste */
   display: flex;
-  align-items: center; /* S'assure que le contenu est centré verticalement */
+  align-items: center; 
 }
 
 .navbar a {
@@ -29,7 +38,7 @@
 }
 
 .navbar a:hover {
-  text-shadow: 0px 0px 10px #ddf7fc;
+  text-shadow: 0px 0px 10px #ddf7fc; /* Effet d'ombre lors du survol */
 }
 
 .navbar-logo {
@@ -38,13 +47,6 @@
   object-fit: contain; /* Garde les proportions du logo */
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-
-
 @media (max-width: 1024px) {
 
   .navbar {
@@ -52,7 +54,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px;
     z-index: 1;
   }
   
@@ -62,12 +63,13 @@
     justify-content: center;
     align-items: center; /* Aligne les éléments verticalement */
     color: white;
+    padding-right: 40px;    /* modif */
   }
   
   .navbar li {
-    margin: 0 30px;
+    margin: 10px;    /* modif */
     display: flex;
-    align-items: center; /* S'assure que le contenu est centré verticalement */
+    align-items: center; 
   }
   
   .navbar a {
@@ -78,7 +80,7 @@
   }
   
   .navbar a:hover {
-    text-shadow: 0px 0px 10px #ddf7fc;
+    text-shadow: 0px 0px 10px #ddf7fc; /* Effet d'ombre lors du survol */
   }
   
   .navbar-logo {
