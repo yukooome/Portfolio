@@ -23,8 +23,19 @@ function Projects() {
       text : "J'ai réalisé cette carte postale dans le cadre de ma formation pour souhaiter de bonnes vacances à mes camarades. J'ai choisi l'univers de Pokémon car il représente l'une de mes passions, à la fois pour le manga et l'animation. Ce projet, entièrement dessiné par moi-même sur Illustrator, m'a permis de combiner créativité et technique. Chaque élément visuel a été conçu et illustré à la main, en mettant en avant des inspirations issues de cet univers que j'affectionne particulièrement."
     },
     
-    { title: 'Projet Numérique 2', description: 'Description du projet numérique 2', link: '#' },
-    { title: 'Projet Numérique 3', description: 'Description du projet numérique 3', link: '#' },
+    { title: 'Procreate', description: 'Croquis de Hiei', link: './src/img/procreatehiei.jpg',
+      titre : "Croquis de Hiei",
+      text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Hiei, un personnage culte du manga Yu Yu Hakusho. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
+     },
+    { title: 'Procreate', description: 'Croquis de Toji', link: './src/img/TojiProcre.jpg',
+      titre : "Croquis de Toji",
+      text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Toji, un personnage culte du manga Jijutsu Kaisen. Cet exercice m'a permis de m'entraîner et d'affiner la réalisation de ce personnage.'", },
+
+    { title: 'Photoshop', description: 'description', link: '',
+      text : "", },
+
+      { title: 'Animate', description: 'description', link: '',
+        text : "", },
   ];
 
   const openModal = (project) => {
@@ -37,6 +48,18 @@ function Projects() {
     setModalProject(null);
   };
 
+    // Projets Web
+    const renderOtherProjects = (projects) => {
+      return projects.map((project, index) => (
+        <div key={index} className="project-card">
+          <h3>{project.title}</h3>
+          <p>{project.description}</p>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">Voir plus</a>
+        </div>
+      ));
+    };
+
+  // Projet Numérique
   const renderDigitalProjects = (projects) => {
     return projects.map((project, index) => (
       <div key={index} className="project-card">
@@ -47,20 +70,12 @@ function Projects() {
     ));
   };
 
-  const renderOtherProjects = (projects) => {
-    return projects.map((project, index) => (
-      <div key={index} className="project-card">
-        <h3>{project.title}</h3>
-        <p>{project.description}</p>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">Voir plus</a>
-      </div>
-    ));
-  };
+
 
   return (
     <section id="projects" className="projects">
       <div className="projects-container">
-        <h2>Mes Projets vedettes</h2>
+        <h2>Projets web</h2>
         <div className="projects-grid">
           {renderOtherProjects(featuredProjects)}
         </div>

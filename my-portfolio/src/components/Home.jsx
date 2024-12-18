@@ -13,7 +13,7 @@ function Home() {
 
   const competences = [
     'HTML', 'CSS', 'JavaScript', 'React','Node.js','Bootstrap', 'Tailwind CSS', 'SASS/SCSS', 'Figma','Git','GitHub', 'Animate', 
-    'Photoshop', 'Illustrator', 'Dessin','Peinture', 'Teams', 'One Drive'
+    'Photoshop', 'Illustrator', 'Procreate', 'Dessin','Peinture', 'Teams', 'One Drive'
   ];
 
   return (
@@ -83,17 +83,19 @@ function Home() {
             </span>
             <img src="src/img/astro-world.png" alt="" className='image-modal-home' />
             <p>
-            Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Je suis actuellement en formation en développement front-end, où j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs comme Illustrator, Animate et Photoshop.
+            Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Actuellement en formation en développement front-end, j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs tels qu'Illustrator, Animate et Photoshop.
 
-J'ai découvert le front-end à un moment où je me sentais un peu perdue, sans savoir quelle direction prendre ni avoir trouvé quelque chose qui me passionnait vraiment. Quand je suis tombée sur ce domaine, j'ai ressenti un grand soulagement, comme si j'avais enfin trouvé ma voie. Le fait de pouvoir allier la technique à la créativité m'a permis de m'épanouir pleinement.
+J'ai découvert le front-end à un moment où je me sentais un peu perdue, sans savoir quelle direction prendre. Quand je suis tombée sur ce domaine, j'ai ressenti un immense soulagement, comme si j'avais enfin trouvé ma voie. L'idée de pouvoir allier technique et créativité m'a vraiment permis de m'épanouir.
 
-C'est un monde où il faut constamment se remettre en question et apprendre. Pour quelqu'un comme moi, qui n'aime pas se contenter de ce qui est acquis et qui adore découvrir de nouvelles choses, c'est une véritable source de motivation. L'idée de toujours pouvoir progresser et me perfectionner m'anime au quotidien.
+Dans ce domaine, il faut constamment se remettre en question et apprendre. Pour moi, qui adore découvrir de nouvelles choses et ne jamais me contenter de l'acquis, c'est une source de motivation constante. L'envie de progresser et de me perfectionner m'anime chaque jour.
 
-Ce parcours me permet de combiner mes compétences techniques avec ma passion pour l'art, le dessin et la peinture, des domaines qui m'ont toujours profondément inspirée. Ma passion pour le manga et l'art se reflète dans chacun de mes projets. C'est d'ailleurs ce qui m'a naturellement orientée vers le front-end : créer des interfaces visuelles est un moyen parfait d'allier créativité et savoir-faire technique.
+Ce parcours me permet de combiner mes compétences techniques avec ma passion pour l'art, le dessin et la peinture, des domaines qui m'inspirent profondément. Ma passion pour le manga et l'art se reflète d'ailleurs dans tous mes projets. C'est ce qui m'a naturellement orientée vers le front-end, où je peux créer des interfaces visuelles et allier créativité et savoir-faire technique. Cette double compétence me permet de proposer des projets uniques et immersifs.
 
-Que ce soit à travers mes dessins, mes peintures sur toile ou mes créations numériques, chaque projet est une occasion de partager mon amour pour l'art et d'innover. Je suis toujours en quête de nouveaux défis pour continuer à apprendre, que ce soit dans le développement web ou dans l'art numérique.
+Toujours en quête de nouveaux défis et d'opportunités pour évoluer, j'aime collaborer sur des projets créatifs. Je vous invite à découvrir mon univers en pleine expansion. Amusez-vous bien !
 
-Si tu souhaites découvrir mes projets ou discuter d'une collaboration, n'hésite pas à me contacter !
+Que ce soit à travers mes dessins, mes peintures sur toile ou mes créations numériques, chaque projet est une occasion de partager ma passion pour l'art et d'innover. Je continue d'apprendre, que ce soit dans le développement web ou l'art numérique.
+
+Si vous souhaitez découvrir mes projets ou discuter d'une collaboration, n'hésitez pas à me contacter !
             </p>
           </div>
         </div>
