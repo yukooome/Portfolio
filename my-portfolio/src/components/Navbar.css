@@ -48,49 +48,13 @@
 }
 
 @media (max-width: 1024px) {
-
-  .navbar {
-    background: linear-gradient(to top, #0b3d91, #000000);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
   
   .navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Aligne les éléments verticalement */
-    color: white;
     padding-right: 40px;    /* modif */
   }
   
   .navbar li {
     margin: 10px;    /* modif */
-    display: flex;
-    align-items: center; 
   }
   
-  .navbar a {
-    color: #9ee8f7;
-    text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 18px;
-  }
-  
-  .navbar a:hover {
-    text-shadow: 0px 0px 10px #ddf7fc; /* Effet d'ombre lors du survol */
-  }
-  
-  .navbar-logo {
-    width: 50px; 
-    height: 50px;
-    object-fit: contain; /* Garde les proportions du logo */
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
 }
