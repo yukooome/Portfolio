@@ -12,7 +12,7 @@ function Home() {
   };
 
   const competences = [
-    'HTML', 'CSS', 'JavaScript', 'React','Node.js','Bootstrap', 'Tailwind CSS', 'SASS/SCSS', 'Figma','Git','GitHub', 'Animate', 
+    'VSCode','HTML', 'CSS', 'JavaScript', 'React','Node.js', 'MongoDB Compass','Bootstrap', 'Tailwind CSS', 'SASS/SCSS', 'Figma','Git','GitHub', 'Animate', 
     'Photoshop', 'Illustrator', 'Procreate', 'Dessin','Peinture', 'Teams', 'One Drive'
   ];
 
