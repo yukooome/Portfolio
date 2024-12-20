@@ -22,6 +22,13 @@ function Projects() {
       titre : "Carte postale Pokémon",
       text : "J'ai réalisé cette carte postale dans le cadre de ma formation pour souhaiter de bonnes vacances à mes camarades. J'ai choisi l'univers de Pokémon car il représente l'une de mes passions, à la fois pour le manga et l'animation. Ce projet, entièrement dessiné par moi-même sur Illustrator, m'a permis de combiner créativité et technique. Chaque élément visuel a été conçu et illustré à la main, en mettant en avant des inspirations issues de cet univers que j'affectionne particulièrement."
     },
+    {
+      title : "Illustrator",
+      description : "Logo Yukooo_art",
+      link : "./src/img/logoYK.jpg",
+      titre : "Logo Yukooo_art",
+      text : "Dans le cadre d'un exercice sur Illustrator, j'ai conçu un logo pour mon nom d'artiste, Yukoo Art, en m'inspirant de l'esthétique kanji pour refléter mon univers. Ce design, inspiré de l'écriture japonaise traditionnelle, se distingue par des lignes simples et élégantes qui évoquent cette culture visuelle. J'ai cherché à y intégrer une touche d'authenticité et de profondeur, tout en gardant une approche épurée et moderne, en harmonie avec mon identité artistique."
+    },
     
     { title: 'Procreate', description: 'Croquis de Hiei', link: './src/img/procreatehiei.jpg',
       titre : "Croquis de Hiei",
@@ -39,6 +46,8 @@ function Projects() {
         titre : "Croquis de Zaraki",
         text : "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique.", },
 
+      { title: 'Photoshop', description: 'description', link: '',
+        text : "", },
       { title: 'Animate', description: 'description', link: '',
         text : "", },
   ];
@@ -81,7 +90,7 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-container">
         <h2>Projets web</h2>
-        <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité : le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.
+        <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité: le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.
         </p>
         <div className="projects-grid">
           {renderOtherProjects(featuredProjects)}

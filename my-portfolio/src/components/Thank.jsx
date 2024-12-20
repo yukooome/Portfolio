@@ -7,16 +7,16 @@ function Thank() {
       <h2>Remerciements</h2>
       <div className="about-content">
         <p>
-          Je souhaite exprimer toute ma gratitude à l'équipe de <strong>Interface3</strong> et à tous les formateurs qui m'ont accompagnée tout au long de cette incroyable aventure. Grâce à eux, j'ai pu découvrir le monde du développement web et apprendre à maîtriser des outils et des technologies qui m'étaient totalement inconnus au départ.
+          Je souhaite exprimer toute ma gratitude à l'équipe de <strong>Interface3</strong> ainsi qu'à tous les formateurs qui m'ont guidée tout au long de cette expérience incroyable. Grâce à eux, j'ai non seulement découvert l'univers du développement web, mais j'ai aussi appris à m'adapter, à utiliser la documentation technique et à devenir autonome dans la résolution des problèmes.
         </p>
         <p>
-          Leur passion et leur pédagogie ont joué un rôle fondamental dans mon évolution. Ils ont su partager avec moi non seulement leurs connaissances, mais aussi leur enthousiasme pour ce domaine, ce qui m'a aidée à trouver ma propre voie et à m'épanouir dans cette discipline.
+          La formation m'a permis de développer mon instinct artistique et mes compétences en design en me donnant la liberté de choisir les thèmes et les designs des projets sur lesquels j'ai travaillé. Cette liberté d'expérimentation a été une véritable source d'enrichissement, me permettant d'améliorer mes compétences en explorant différentes approches créatives.
         </p>
         <p>
-          Je tiens à remercier particulièrement chacun d'entre eux pour leur patience, leur écoute et leur soutien constant. Grâce à eux, je me sens aujourd'hui prête à relever de nouveaux défis avec confiance et détermination.
+          En l'espace de 14 mois, j'ai énormément appris, aussi bien d'un point de vue technique que personnel. Chaque défi relevé m'a aidée à gagner en confiance, et l'encadrement bienveillant des formateurs a été essentiel dans ce processus. Leur passion et leur capacité à transmettre leurs connaissances ont été une source d'inspiration constante, me poussant à me dépasser.
         </p>
         <p>
-          Un immense merci à <strong>Interface3</strong> pour m'avoir permis de grandir, d'apprendre et de me sentir à ma place dans ce monde en constante évolution.
+          Un immense merci à <strong>Interface3</strong> pour cette opportunité, qui m'a permis de grandir, d'acquérir de nouvelles compétences et de me sentir prête à affronter de nouveaux défis dans le monde en constante évolution du développement web.
         </p>
         <img src="src/img/interface3logo.png" alt="LogoInterface" />
       </div>
