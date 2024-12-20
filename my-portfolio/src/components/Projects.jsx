@@ -27,6 +27,10 @@ function Projects() {
       titre : "Croquis de Hiei",
       text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Hiei, un personnage culte du manga Yu Yu Hakusho. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
      },
+     { title: 'Procreate', description: 'Croquis de Guts', link: './src/img/proGuts.jpg',
+      titre : "Croquis de Guts",
+      text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Guts, un personnage culte du manga Berserk. Il a servi de base pour la création d'un tableau qui est déjà achevé sur bois."
+     },
     { title: 'Procreate', description: 'Croquis de Toji', link: './src/img/proToji.jpg',
       titre : "Croquis de Toji",
       text : "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Toji, un personnage culte du manga Jijutsu Kaisen. Cet exercice m'a permis de m'entraîner et d'affiner la réalisation de ce personnage.'", },
