@@ -30,6 +30,10 @@
   color: rgb(158, 232, 247); /* Pour accentuer les mots-clés */
 }
 
+.about-content a {
+  color: rgb(158, 232, 247); /* Pour accentuer les mots-clés */
+}
+
 .about-content img {
   width: 150px;
   height: 150px;
