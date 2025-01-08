@@ -112,8 +112,19 @@ function Home() {
             </span>
             <img src="src/img/astro-world.png" alt="" className='image-modal-home' />
             <p>
-              Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo...
-              {/* Le texte ici */}
+            Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Actuellement en formation en développement front-end, chez interfaces 3 à Bruxelles, j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs tels qu'Illustrator, Animate et Photoshop.
+
+J'ai découvert le front-end à un moment où je me sentais un peu perdue, sans savoir quelle direction prendre. Quand je suis tombée sur ce domaine, j'ai ressenti un immense soulagement, comme si j'avais enfin trouvé ma voie. L'idée de pouvoir allier technique et créativité m'a vraiment permis de m'épanouir.
+
+Dans ce domaine, il faut constamment se remettre en question et apprendre. Pour moi, qui adore découvrir de nouvelles choses et ne jamais me contenter de l'acquis, c'est une source de motivation constante. L'envie de progresser et de me perfectionner m'anime chaque jour.
+
+Ce parcours me permet de combiner mes compétences techniques avec ma passion pour l'art, le dessin et la peinture, des domaines qui m'inspirent profondément. Ma passion pour le manga et l'art se reflète d'ailleurs dans tous mes projets. C'est ce qui m'a naturellement orientée vers le front-end, où je peux créer des interfaces visuelles et allier créativité et savoir-faire technique. Cette double compétence me permet de proposer des projets uniques et immersifs.
+
+Toujours en quête de nouveaux défis et d'opportunités pour évoluer, j'aime collaborer sur des projets créatifs. Je vous invite à découvrir mon univers en pleine expansion. Amusez-vous bien !
+
+Que ce soit à travers mes dessins, mes peintures sur toile ou mes créations numériques, chaque projet est une occasion de partager ma passion pour l'art et d'innover. Je continue d'apprendre, que ce soit dans le développement web ou l'art numérique.
+
+Si vous souhaitez découvrir mes projets ou discuter d'une collaboration, n'hésitez pas à me contacter !
             </p>
           </div>
         </div>
