@@ -203,6 +203,17 @@
   margin-bottom: 15px;
 }
 
+
+
+.competences-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
 .competences-container {
   display: flex;
   gap: 15px; /* Espace entre les compétences */
@@ -210,10 +221,23 @@
   white-space: nowrap; /* Empêche le retour à la ligne */
   scroll-behavior: smooth;
   padding-bottom: 10px;
-
-  /* Masquer la barre de défilement */
   scrollbar-width: none; /* Pour Firefox */
   -ms-overflow-style: none;  /* Pour Internet Explorer et Edge */
+}
+
+
+
+.scroll-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.scroll-btn:hover {
+  color: #00ff15; /* Effet néon au survol */
 }
 
 .competence-card {
@@ -233,6 +257,11 @@
 .competence-card:hover {
   background-color: #0b3d91;
   color: #fff; /* Change la couleur du texte sur hover */
+}
+
+/* Masquer la barre de défilement */
+.competences-container::-webkit-scrollbar {
+  display: none; /* Pour Chrome, Safari et Opera */
 }
 
 

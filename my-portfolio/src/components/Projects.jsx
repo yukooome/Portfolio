@@ -50,10 +50,10 @@ function Projects() {
         titre : "Croquis de Zaraki",
         text : "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique.", },
 
-      { title: 'Photoshop', description: 'description', link: '',
-        text : "", },
-      { title: 'Animate', description: 'description', link: '',
-        text : "", },
+      // { title: 'Photoshop', description: 'description', link: '',
+      //   text : "", },
+      // { title: 'Animate', description: 'description', link: '',
+      //   text : "", },
   ];
 
   const openModal = (project) => {
