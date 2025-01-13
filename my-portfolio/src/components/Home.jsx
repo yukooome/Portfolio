@@ -80,7 +80,7 @@ function Home() {
 
 
           <div className="cv">
-            <a href="/path/to/your/image.jpg" target="_blank" rel="noopener noreferrer">
+            <a href="src/img/cv.png" target="_blank" rel="noopener noreferrer">
               <button className="cv-btn">Voir le CV</button>
             </a>
           </div>
