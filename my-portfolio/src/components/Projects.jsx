@@ -6,7 +6,7 @@ function Projects() {
   const [modalProject, setModalProject] = useState(null); // Stocke tout le projet sélectionné
 
   const featuredProjects = [
-    { title: 'Projet 1', description: 'Description du projet 1', link: '#' },
+    { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
     { title: 'Projet 2', description: 'Description du projet 2', link: '#' },
     { title: 'Projet 3', description: 'Description du projet 3', link: '#' },
     { title: 'Projet 4', description: 'Description du projet 4', link: '#' },
@@ -72,7 +72,7 @@ function Projects() {
         <div key={index} className="project-card">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
-          <a href={project.link} target="_blank" rel="noopener noreferrer">Voir plus</a>
+          <a href={project.link} className="digital-project-btn" target="_blank" rel="noopener noreferrer">Voir plus</a>
         </div>
       ));
     };
