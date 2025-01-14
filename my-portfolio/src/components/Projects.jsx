@@ -54,6 +54,10 @@ function Projects() {
     { title: 'Procreate', description: 'Croquis de Zaraki', link: './src/img/proZaraki.jpg',
       titre: "Croquis de Zaraki",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique."
+    },
+    { title: 'Procreate', description: 'Croquis de Meruem', link: './src/img/meruem.jpg',
+      titre: "Croquis de Meruem",
+      text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Meruem, un personnage emblématique du manga HxH, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique, sur base d'une scène Manga."
     }
   ];
 
