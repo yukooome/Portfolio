@@ -50,24 +50,6 @@
   transform: scale(1.05);
 }
 
-/* .planet {
-  width: 80px;
-  height: 80px;
-  background-color: #6a0dad;
-  border-radius: 50%;
-  margin: 0 auto 20px;
-  position: relative;
-  animation: orbit 5s infinite linear;
-} */
-
-/* @keyframes orbit {
-  0% {
-    transform: rotate(0deg) translateX(10px);
-  }
-  100% {
-    transform: rotate(360deg) translateX(10px);
-  }
-} */
 
 .project-card h3 {
   font-size: 1.5rem;
@@ -138,6 +120,53 @@
   object-fit: cover; /* Maintient le ratio d'aspect et coupe l'image si nécessaire */
   border-radius: 10px; /* Adoucir les coins */
 }
+
+
+.projects-carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative; /* Permet de positionner les flèches à l'intérieur du conteneur */
+}
+
+.scroll-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 2; /* Assurez-vous que les boutons sont visibles au-dessus des projets */
+}
+
+.scroll-btn:hover {
+  transform: scale(1.2);
+}
+
+.scroll-btn.left {
+  position: absolute;
+  left: 0; /* Place la flèche à gauche */
+}
+
+.scroll-btn.right {
+  position: absolute;
+  right: 0; /* Place la flèche à droite */
+}
+
+.projects-carousel {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0 40px; /* Ajout d'un espace de 40px à gauche et à droite pour les flèches */
+}
+
+
+
+
+
 
 
 @media (max-width: 1024px) {
