@@ -63,7 +63,7 @@ function Home() {
 
           <div className="all-accueil-deux-casedeux">
             <div className='reseaux'>
-              <a href="https://www.linkedin.com/in/ma%C3%AFss%C3%A2a-elbhi-32706830b/" target="_blank" rel="noopener noreferrer" className="neon-icon">
+              <a href="https://www.linkedin.com/in/maïssâa-el-bachiri-32706830b/" target="_blank" rel="noopener noreferrer" className="neon-icon">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a href="https://www.figma.com/files/team/1382626070649423703/drafts?fuid=1382626065797452021" target="_blank" rel="noopener noreferrer" className="neon-icon">
@@ -80,7 +80,7 @@ function Home() {
 
 
           <div className="cv">
-            <a href="src/img/cv.png" target="_blank" rel="noopener noreferrer">
+            <a href="src/img/cv.pdf" target="_blank" rel="noopener noreferrer">
               <button className="cv-btn">Voir le CV</button>
             </a>
           </div>
