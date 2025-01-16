@@ -50,11 +50,11 @@
 @media (max-width: 1024px) {
   
   .navbar ul {
-    padding-right: 40px;    /* modif */
+    padding-right: 40px; 
   }
   
   .navbar li {
-    margin: 10px;    /* modif */
+    margin: 10px;  
   }
   
 }
