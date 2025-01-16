@@ -45,7 +45,7 @@ function Home() {
         <div className="all-accueil-un">
           <h1>Développeuse Front-End, Junior</h1>
           <img
-            src="src/assets/img/astro-mignon.png"
+            src="assets/img/astro-mignon.png"
             alt="astro"
             className="profile-image"
           />
@@ -80,7 +80,7 @@ function Home() {
 
 
           <div className="cv">
-            <a href="src/assets/img/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="assets/img/cv.pdf" target="_blank" rel="noopener noreferrer">
               <button className="cv-btn">Voir le CV</button>
             </a>
           </div>
@@ -117,7 +117,7 @@ function Home() {
             <span className="close-btn" onClick={toggleModal}>
               &times;
             </span>
-            <img src="src/assets/img/astro-world.png" alt="" className='image-modal-home' />
+            <img src="assets/img/astro-world.png" alt="" className='image-modal-home' />
             <p>
             Salut les artistes ! Je m'appelle Maïssâa, mais tu peux aussi me connaître sous le nom de Yukooo. Actuellement en formation en développement front-end, chez interfaces 3 à Bruxelles, j'apprends à maîtriser des langages comme JavaScript, React, HTML et CSS, tout en explorant des outils créatifs tels qu'Illustrator, Animate et Photoshop.
 
