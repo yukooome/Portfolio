@@ -1,58 +1,67 @@
+/* Section principale des projets art */
 .projects-art {
-    padding: 20px 20px 20px; 
-    background: linear-gradient(to bottom, #0b3d91, #000000);
+    padding: 20px; 
+    background: linear-gradient(to bottom, #0b3d91, #000000); /* Dégradé de fond */
     color: white;
     position: relative;
 }
 
+/* Conteneur des projets art */
 .projects-container-art {
     width: 80%;  
     margin: 0 auto;
     padding-top: 0; 
 }
 
+/* Titre des projets */
 .projects-art h2 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; /* Police futuriste */
     font-size: 2.5rem;
     margin-bottom: 20px; 
     color: #ffffff;
-    text-shadow: 0 0 10px #00d4ff;
+    text-shadow: 0 0 10px #00d4ff; /* Ombre lumineuse sur le texte */
     text-align: left;  
-    border-bottom: 2px solid #00d4ff; 
+    border-bottom: 2px solid #00d4ff; /* Bordure sous le titre */
     padding-bottom: 10px;
 }
 
+/* Paragraphe dans le conteneur des projets */
 .projects-container-art p {
     font-size: 18px;
     padding-bottom: 15px;
 }
 
+/* Grille des projets art */
 .projects-grid-art {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Grille flexible avec des images responsives */
     gap: 20px;
 }
 
+/* Image du projet */
 .project-image-art {
     position: relative;
-    overflow: hidden;
+    overflow: hidden; /* Cache les parties débordantes */
 }
 
+/* Style des images dans la grille */
 .grid-image-art {
     width: 100%;
     height: 200px; 
-    object-fit: cover; 
+    object-fit: cover; /* Remplir l'espace de manière proportionnelle */
     cursor: pointer;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    border-radius: 8px; /* Coins arrondis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Transition douce sur l'agrandissement et les effets */
 }
 
+/* Effet au survol des images */
 .grid-image-art:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Agrandissement au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre autour de l'image */
     filter: grayscale(100%); /* Griser l'image */
 }
 
+/* Information au survol de l'image */
 .project-info {
     position: absolute;
     top: 0;
@@ -64,37 +73,41 @@
     justify-content: center;
     align-items: center;
     color: white;
-    opacity: 0;
+    opacity: 0; /* Caché par défaut */
     transition: opacity 0.3s ease;
     text-align: center;
 }
 
+/* Affichage des informations au survol de l'image */
 .project-image-art:hover .project-info {
     opacity: 1; /* Afficher les informations au survol */
 }
 
+/* Style du titre dans les informations du projet */
 .project-info h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
+/* Style du paragraphe dans les informations du projet */
 .project-info p {
     font-size: 1rem;
 }
 
+/* Style pour les liens */
+.lien {
+    color: #00d4ff; /* Couleur bleu clair */
+}
 
-.lien{
+/* Effet de survol sur les liens */
+.lien:hover {
     color: #00d4ff;
+    text-shadow: 0px 0px 10px #ddf7fc; /* Ombre lumineuse sur le texte */
 }
 
-.lien:hover{
-    color:#00d4ff;
-    text-shadow: 0px 0px 10px #ddf7fc;
-}
-
-
+/* Styles responsives pour les écrans de moins de 1024px */
 @media (max-width: 1024px) {
     .projects-container-art p {
-        font-size: 16px;
+        font-size: 16px; /* Réduction de la taille du texte pour les petits écrans */
     }  
 }

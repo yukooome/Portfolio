@@ -50,7 +50,6 @@
   transform: scale(1.05);
 }
 
-
 .project-card h3 {
   font-size: 1.5rem;
   color: #00d4ff;
@@ -71,10 +70,7 @@
   text-shadow: 0 0 10px #00d4ff;
 }
 
-
-
-
-/* Styles pour la modale projet numerique*/
+/* Styles pour la modale projet numerique */
 .modal {
   position: fixed;
   top: 0;
@@ -106,7 +102,6 @@
   color: #333; /* Assure-toi que le texte est lisible sur le fond clair */
 }
 
-
 .modal-image {
   width: 90%;  /* Largeur fixe */
   height: 500px; /* Hauteur fixe */
@@ -120,7 +115,6 @@
   object-fit: cover; /* Maintient le ratio d'aspect et coupe l'image si nécessaire */
   border-radius: 10px; /* Adoucir les coins */
 }
-
 
 .projects-carousel-container {
   display: flex;
@@ -163,14 +157,8 @@
   margin: 0 40px; /* Ajout d'un espace de 40px à gauche et à droite pour les flèches */
 }
 
-
-
-
-
-
-
+/* Responsiveness */
 @media (max-width: 1024px) {
-
   .projects-container p {
     font-size: 16px;
   }
@@ -181,20 +169,14 @@
   }
 }
 
-
-
 .close {
   position: absolute;
   top: 10px;
   right: 20px;
   font-size: 30px;
   font-weight: bold;
-  color: #333;
+  color: rgb(255, 0, 0);  /* Couleur rouge pour la croix */
   cursor: pointer;
-}
-
-.close:hover {
-  color: red;
 }
 
 .modal h2{
@@ -230,5 +212,91 @@
   outline: none;
 }
 
+/* Ajustement global de la carte */
+@media (max-width: 1024px) {
+  .project-card {
+    width: 180px; /* Réduire la taille de la carte sur les écrans plus petits */
+    padding: 15px;
+  }
+}
 
+@media (max-width: 768px) {
+  .project-card {
+    width: 150px; /* Encore plus petite sur les écrans de tablette */
+    padding: 10px;
+  }
 
+  .projects-grid, .projects-carousel {
+    gap: 15px; /* Réduire l'espace entre les cartes */
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem; /* Réduire la taille du titre */
+  }
+
+  .project-card p {
+    font-size: 0.9rem; /* Réduire la taille du texte */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    width: 120px; /* Réduire la taille sur les petits écrans comme les smartphones */
+    padding: 8px;
+  }
+
+  .projects-container p {
+    font-size: 14px; /* Ajuster la taille du texte */
+  }
+
+  .project-card h3 {
+    font-size: 1rem; /* Réduire davantage la taille du titre */
+  }
+
+  .project-card p {
+    font-size: 0.8rem; /* Texte plus petit */
+  }
+
+  .projects h2 {
+    font-size: 1.8rem; /* Réduire la taille du titre de section */
+  }
+}
+
+/* btn */
+.digital-project-btn {
+  background-color: #00d4ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.digital-project-btn:hover {
+  background-color: #009dbf;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .digital-project-btn {
+    padding: 8px 16px; /* Réduire le padding */
+    font-size: 0.9rem; /* Réduire légèrement la taille de la police */
+  }
+}
+
+@media (max-width: 768px) {
+  .digital-project-btn {
+    padding: 7px 14px; /* Réduire encore plus le padding */
+    font-size: 0.85rem; /* Diminuer la taille de la police */
+  }
+}
+
+@media (max-width: 480px) {
+  .digital-project-btn {
+    padding: 6px 12px; /* Réduire encore plus pour les petits écrans */
+    font-size: 0.75rem; /* Taille du texte plus petite pour les écrans de smartphone */
+  }
+}
