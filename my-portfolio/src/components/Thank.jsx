@@ -19,7 +19,7 @@ function Thank() {
         <p>
           Un immense merci à <strong><a href="https://interface3.be/fr" target="_blank">Interface3 </a></strong> pour cette opportunité, qui m'a permis de grandir, d'acquérir de nouvelles compétences et de me sentir prête à affronter de nouveaux défis dans le monde en constante évolution du développement web.
         </p>
-        <img src="src/img/interface3logo.png" alt="LogoInterface" />
+        <img src="assets/img/interface3logo.png" alt="LogoInterface" />
       </div>
     </section>
   );
