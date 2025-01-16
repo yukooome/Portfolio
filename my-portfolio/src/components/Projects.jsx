@@ -23,39 +23,39 @@ function Projects() {
     {
       title: "Illustrator",
       description: "Carte postale Pokémon",
-      link: "./src/img/pokemon-card.png",
+      link: "./src/assets/img/pokemon-card.png",
       titre: "Carte postale Pokémon",
       text: "J'ai réalisé cette carte postale dans le cadre de ma formation pour souhaiter de bonnes vacances à mes camarades. J'ai choisi l'univers de Pokémon car il représente l'une de mes passions, à la fois pour le manga et l'animation. Ce projet, entièrement dessiné par moi-même sur Illustrator, m'a permis de combiner créativité et technique. Chaque élément visuel a été conçu et illustré à la main, en mettant en avant des inspirations issues de cet univers que j'affectionne particulièrement."
     },
     {
       title: "Illustrator",
       description: "Logo Yukooo_art",
-      link: "./src/img/logoYK.jpg",
+      link: "./src/assets/img/logoYK.jpg",
       titre: "Logo Yukooo_art",
       text: "Dans le cadre d'un exercice sur Illustrator, j'ai conçu un logo pour mon nom d'artiste, Yukoo Art, en m'inspirant de l'esthétique kanji pour refléter mon univers. Ce design, inspiré de l'écriture japonaise traditionnelle, se distingue par des lignes simples et élégantes qui évoquent cette culture visuelle. J'ai cherché à y intégrer une touche d'authenticité et de profondeur, tout en gardant une approche épurée et moderne, en harmonie avec mon identité artistique."
     },
     {
-      title: 'Procreate', description: 'Croquis de Hiei', link: './src/img/procreatehiei.jpg',
+      title: 'Procreate', description: 'Croquis de Hiei', link: './src/assets/img/procreatehiei.jpg',
       titre: "Croquis de Hiei",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Hiei, un personnage culte du manga Yu Yu Hakusho. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
     },
-    { title: 'Procreate', description: 'Croquis de Guts', link: './src/img/proGuts.jpg',
+    { title: 'Procreate', description: 'Croquis de Guts', link: './src/assets/img/proGuts.jpg',
       titre: "Croquis de Guts",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Guts, un personnage culte du manga Berserk. Il a servi de base pour la création d'un tableau qui est déjà achevé sur bois."
     },
-    { title: 'Procreate', description: 'Croquis de Toji', link: './src/img/proToji.jpg',
+    { title: 'Procreate', description: 'Croquis de Toji', link: './src/assets/img/proToji.jpg',
       titre: "Croquis de Toji",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Toji, un personnage culte du manga Jijutsu Kaisen. Cet exercice m'a permis de m'entraîner et d'affiner la réalisation de ce personnage."
     },
-    { title: 'Procreate', description: 'Croquis de Gon', link: './src/img/progon.jpg',
+    { title: 'Procreate', description: 'Croquis de Gon', link: './src/assets/img/progon.jpg',
       titre: "Croquis de Gon",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Gon, un personnage culte du manga HunterX Hunter. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
     },
-    { title: 'Procreate', description: 'Croquis de Zaraki', link: './src/img/proZaraki.jpg',
+    { title: 'Procreate', description: 'Croquis de Zaraki', link: './src/assets/img/proZaraki.jpg',
       titre: "Croquis de Zaraki",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique."
     },
-    { title: 'Procreate', description: 'Croquis de Meruem', link: './src/img/meruem.jpg',
+    { title: 'Procreate', description: 'Croquis de Meruem', link: './src/assets/img/meruem.jpg',
       titre: "Croquis de Meruem",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Meruem, un personnage emblématique du manga HxH, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique, sur base d'une scène Manga."
     }
