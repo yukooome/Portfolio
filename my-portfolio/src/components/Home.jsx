@@ -63,7 +63,7 @@ function Home() {
 
           <div className="all-accueil-deux-casedeux">
             <div className='reseaux'>
-              <a href="www.linkedin.com/in/maïssâa-el-bachiri-32706830b" target="_blank" rel="noopener noreferrer" className="neon-icon">
+              <a href="https://www.linkedin.com/in/ma%C3%AFss%C3%A2a-el-bachiri-32706830b/" target="_blank" rel="noopener noreferrer" className="neon-icon">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a href="https://www.figma.com/files/team/1382626070649423703/drafts?fuid=1382626065797452021" target="_blank" rel="noopener noreferrer" className="neon-icon">
