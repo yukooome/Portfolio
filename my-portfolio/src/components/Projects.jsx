@@ -12,7 +12,7 @@ function Projects() {
 
   const featuredProjects = [
     { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
-    { title: 'Projet 2', description: 'Description du projet 2', link: '#' },
+    { title: 'MangaKo', description: 'Biblio Manga', link: 'https://projet-react-eosin.vercel.app/' },
     { title: 'Projet 3', description: 'Description du projet 3', link: '#' },
     { title: 'Projet 4', description: 'Description du projet 4', link: '#' },
     { title: 'Projet 5', description: 'Description du projet 5', link: '#' },
