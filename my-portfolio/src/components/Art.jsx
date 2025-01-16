@@ -13,7 +13,7 @@ function Art() {
     { title: 'Doflamingo', description: 'Tableau', link: './assets/img/doficouleur.jpg', size: '50x40cm' },
     { title: 'Yusuke', description: 'Tableau', link: './assets/img/yuyucouleur.jpg', size: '50x40cm' },
     { title: 'Toji', description: 'Tableau', link: './assets/img/tojicouleur.jpg', size: '50x40cm' },
-    { title: 'Deku', description: 'Tableau', link: './src/assets/img/dekunoirblanc.jpg', size: '50x40cm' },
+    { title: 'Deku', description: 'Tableau', link: './assets/img/dekunoirblanc.jpg', size: '50x40cm' },
     { title: 'Gohan', description: 'Tableau', link: './assets/img/gohancouleur.jpg', size: '50x40cm' },
     { title: 'Itachi', description: 'Tableau', link: './assets/img/itachi.jpg', size: '50x40cm' },
     { title: 'Broly', description: 'Tableau', link: './assets/img/broly.jpg', size: '50x40cm' },
