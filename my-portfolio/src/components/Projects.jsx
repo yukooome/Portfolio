@@ -12,8 +12,13 @@ function Projects() {
 
   const featuredProjects = [
     // { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
-    { title: 'MangaKo', description: 'Biblio Manga-en cours', link: 'https://projet-react-eosin.vercel.app/' },
-    // { title: 'Pokedex', description: 'Liste des Pokémons', link: 'https://formation-2024-2025.vercel.app' },
+    { title: 'MangaKo', description: 'React-en cours', link: 'https://projet-react-eosin.vercel.app/' },
+    { title: 'Pokedex', description: 'React', link: 'https://formation-2024-2025.vercel.app' },
+    { title: 'Exo_formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
+    { title: 'Exo_tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
+    { title: 'Exo_animation', description: 'Html-CSS', link: 'https://animation-lac-iota.vercel.app' },
+    { title: 'Exo_responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app' },
+
     // { title: 'Projet 4', description: 'Description du projet 4', link: '#' },
     // { title: 'Projet 5', description: 'Description du projet 5', link: '#' },
     // { title: 'Projet 6', description: 'Description du projet 6', link: '#' },
