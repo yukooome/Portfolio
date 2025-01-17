@@ -14,6 +14,10 @@ function Projects() {
     // { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
     { title: 'MangaKo', description: 'React-en cours', link: 'https://projet-react-eosin.vercel.app/' },
     { title: 'Pokedex', description: 'React', link: 'https://formation-2024-2025.vercel.app' },
+
+    { title: 'Distributeur', description: 'JS', link: 'https://javascript-rho-cyan.vercel.app' },
+
+
     { title: 'Exo_formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
     { title: 'Exo_tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
     { title: 'Exo_tailwind', description: 'Html-CSS', link: 'https://tailwind-mu-two.vercel.app' },
