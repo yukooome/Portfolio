@@ -16,6 +16,7 @@ function Projects() {
     { title: 'Pokedex', description: 'React', link: 'https://formation-2024-2025.vercel.app' },
     { title: 'Exo_formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
     { title: 'Exo_tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
+    { title: 'Exo_tailwind', description: 'Html-CSS', link: 'https://tailwind-mu-two.vercel.app' },
     { title: 'Exo_animation', description: 'Html-CSS', link: 'https://animation-lac-iota.vercel.app' },
     { title: 'Exo_responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app' },
 
