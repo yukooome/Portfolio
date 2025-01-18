@@ -15,6 +15,7 @@ function Projects() {
     { title: 'MangaKo', description: 'React-en cours', link: 'https://projet-react-eosin.vercel.app/' },
     { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app' },
     { title: 'Todolist', description: 'React', link: 'https://todoliste.vercel.app' },
+    { title: 'Prix-produit', description: 'React', link: 'https://prix-produit.vercel.app' },
 
     { title: 'Distributeur', description: 'JS', link: 'https://javascript-rho-cyan.vercel.app' },
     { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app' },
