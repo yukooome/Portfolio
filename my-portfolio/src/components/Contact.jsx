@@ -15,7 +15,7 @@ function Contact() {
       
       {/* Copyright */}
       <footer className="contact-footer">
-        <p>&copy; {new Date().getFullYear()} Maissaa ElBachiri. Tous droits réservés.</p>
+        <p>&copy; {new Date().getFullYear()} Maissaa El B. Tous droits réservés.</p>
       </footer>
     </section>
   );
