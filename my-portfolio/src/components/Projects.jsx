@@ -13,7 +13,7 @@ function Projects() {
   const featuredProjects = [
     // { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
     { title: 'MangaKo', description: 'React-en cours', link: 'https://projet-react-eosin.vercel.app/' },
-    { title: 'Pokedex', description: 'React', link: 'https://formation-2024-2025.vercel.app' },
+    { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app' },
 
     { title: 'Distributeur', description: 'JS', link: 'https://javascript-rho-cyan.vercel.app' },
     { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app' },
