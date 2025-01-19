@@ -176,7 +176,7 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-container">
         <h2>Projets web</h2>
-        <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité: le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.</p>
+        <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets/exercices en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité: le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.</p>
         {renderOtherProjects(featuredProjects)}
 
         <h2>Projets Numériques</h2>
