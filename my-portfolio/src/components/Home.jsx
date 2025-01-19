@@ -15,7 +15,8 @@ function Home() {
 
   const competences = [
     'VSCode','HTML', 'CSS', 'JavaScript', 'React', 'WordPress','Node.js', 'MongoDB Compass','Bootstrap', 'Tailwind CSS', 'SASS/SCSS', 'Figma','Git','GitHub', 'Animate', 
-    'Photoshop', 'Illustrator', 'Procreate', 'Dessin','Peinture', 'Teams', 'One Drive'
+    'Photoshop', 'Illustrator', 'Procreate', 'Dessin','Peinture'
+    // , 'Teams', 'One Drive'
   ];
 
   // Fonction pour faire défiler vers la gauche
