@@ -23,11 +23,11 @@ function Projects() {
     { title: 'Ordre', description: 'JS', link: 'https://ordre.vercel.app' },
 
 
-    { title: 'Exo_formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
-    { title: 'Exo_tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
-    { title: 'Exo_tailwind', description: 'Html-CSS - pas responsive', link: 'https://tailwind-mu-two.vercel.app' },
-    { title: 'Exo_animation', description: 'Html-CSS - pas responsive', link: 'https://animation-lac-iota.vercel.app' },
-    { title: 'Exo_responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app' },
+    { title: 'Formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
+    { title: 'Tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
+    { title: 'Tailwind', description: 'Html-CSS - pas responsive', link: 'https://tailwind-mu-two.vercel.app' },
+    { title: 'Animation', description: 'Html-CSS - pas responsive', link: 'https://animation-lac-iota.vercel.app' },
+    { title: 'Responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app' },
 
     // { title: 'Projet 4', description: 'Description du projet 4', link: '#' },
     // { title: 'Projet 5', description: 'Description du projet 5', link: '#' },
