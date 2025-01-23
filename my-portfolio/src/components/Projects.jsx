@@ -17,6 +17,7 @@ function Projects() {
     { title: 'Todolist', description: 'React', link: 'https://todoliste.vercel.app' },
     { title: 'Prix-produit', description: 'React', link: 'https://prix-produit.vercel.app' },
 
+    { title: 'Dr.Stone', description: 'JS - pas responsive', link: 'https://drstoone.vercel.app/' },
     { title: 'Distributeur', description: 'JS - pas responsive', link: 'https://javascript-rho-cyan.vercel.app' },
     { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app' },
     { title: 'Ville', description: 'JS', link: 'https://ville-steel.vercel.app' },
