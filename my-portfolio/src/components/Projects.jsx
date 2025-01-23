@@ -11,13 +11,12 @@ function Projects() {
   const digitalProjectsContainerRef = useRef(null); // Référence au conteneur des projets numériques
 
   const featuredProjects = [
-    // { title: 'Projet 1', description: 'Description du projet 1', link: 'https://www.google.com/?client=safari' },
     { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/' },
     { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app' },
     { title: 'Todolist', description: 'React', link: 'https://todoliste.vercel.app' },
     { title: 'Prix-produit', description: 'React', link: 'https://prix-produit.vercel.app' },
 
-    { title: 'Dr.Stone', description: 'JS - pas responsive', link: 'https://drstoone.vercel.app/' },
+    { title: 'Dr.Stone', description: 'JS - en cours', link: 'https://drstoone.vercel.app/' },
     { title: 'Distributeur', description: 'JS - pas responsive', link: 'https://javascript-rho-cyan.vercel.app' },
     { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app' },
     { title: 'Ville', description: 'JS', link: 'https://ville-steel.vercel.app' },
