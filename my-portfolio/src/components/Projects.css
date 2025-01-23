@@ -135,7 +135,8 @@
 }
 
 .btn-projet-web:hover, .btn-projet-web-git:hover {
-  background-color: #b8b7b7;
+  /* background-color: #949393; */
+  background-color:#00d4ff;
 }
 
 .icon {
