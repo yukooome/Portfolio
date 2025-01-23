@@ -55,6 +55,10 @@ function Projects() {
       titre: "Croquis de Hiei",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Hiei, un personnage culte du manga Yu Yu Hakusho. Il a servi de base pour la création d'un tableau qui est déjà achevé sur toile."
     },
+    { title: 'Procreate', description: 'Croquis de Meruem', link: './assets/img/meruem.jpg',
+      titre: "Croquis de Meruem",
+      text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Meruem, un personnage emblématique du manga HxH, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique, sur base d'une scène Manga."
+    },
     { title: 'Procreate', description: 'Croquis de Guts', link: './assets/img/ProGuts.jpg',
       titre: "Croquis de Guts",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Guts, un personnage culte du manga Berserk. Il a servi de base pour la création d'un tableau qui est déjà achevé sur bois."
@@ -70,10 +74,6 @@ function Projects() {
     { title: 'Procreate', description: 'Croquis de Zaraki', link: './assets/img/proZaraki.jpg',
       titre: "Croquis de Zaraki",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique."
-    },
-    { title: 'Procreate', description: 'Croquis de Meruem', link: './assets/img/meruem.jpg',
-      titre: "Croquis de Meruem",
-      text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Meruem, un personnage emblématique du manga HxH, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique, sur base d'une scène Manga."
     }
   ];
 
