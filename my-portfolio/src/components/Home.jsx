@@ -23,7 +23,7 @@ function Home() {
   const scrollLeft = () => {
     if (competencesContainerRef.current) {
       competencesContainerRef.current.scrollBy({
-        left: -300, // Ajustez cette valeur pour définir la distance de défilement
+        left: -150, // Ajustez cette valeur pour définir la distance de défilement
         behavior: 'smooth',
       });
     }
@@ -33,7 +33,7 @@ function Home() {
   const scrollRight = () => {
     if (competencesContainerRef.current) {
       competencesContainerRef.current.scrollBy({
-        left: 300, // Ajustez cette valeur pour définir la distance de défilement
+        left: 150, // Ajustez cette valeur pour définir la distance de défilement
         behavior: 'smooth',
       });
     }

@@ -2,7 +2,10 @@
 import React, { useState, useRef } from 'react';
 import './Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons'; // Icône pour l'œil
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Icône pour GitHub
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'; // Flèches pour le défilement
+
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,27 +14,23 @@ function Projects() {
   const digitalProjectsContainerRef = useRef(null); // Référence au conteneur des projets numériques
 
   const featuredProjects = [
-    { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/' },
-    { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app' },
-    { title: 'Todolist', description: 'React', link: 'https://todoliste.vercel.app' },
-    { title: 'Prix-produit', description: 'React', link: 'https://prix-produit.vercel.app' },
+    { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/', gitLink : 'https://github.com/yukooome/Projet-React' },
+    { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/Pokemons' },
+    { title: 'Todolist', description: 'React', link: 'https://todoliste.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/todolist' },
+    { title: 'Prix-produit', description: 'React', link: 'https://prix-produit.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/Prix-produit' },
 
-    { title: 'Dr.Stone', description: 'JS - en cours', link: 'https://drstoone.vercel.app/' },
-    { title: 'Distributeur', description: 'JS - pas responsive', link: 'https://javascript-rho-cyan.vercel.app' },
-    { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app' },
-    { title: 'Ville', description: 'JS', link: 'https://ville-steel.vercel.app' },
-    { title: 'Ordre', description: 'JS', link: 'https://ordre.vercel.app' },
+    { title: 'Dr.Stone', description: 'JS - en cours', link: 'https://drstoone.vercel.app/', gitLink : 'https://github.com/yukooome/Projet-JS' },
+    { title: 'Distributeur', description: 'JS - pas responsive', link: 'https://javascript-rho-cyan.vercel.app', gitLink : 'https://github.com/yukooome/Javascript/tree/main/distributeur%20manga' },
+    { title: 'Flexbox', description: 'JS', link: 'https://flexbox-fawn-nu.vercel.app', gitLink : 'https://github.com/yukooome/Javascript/tree/main/exo_flexbox' },
+    { title: 'Ville', description: 'JS', link: 'https://ville-steel.vercel.app', gitLink : 'https://github.com/yukooome/Javascript/tree/main/exoville' },
+    { title: 'Ordre', description: 'JS', link: 'https://ordre.vercel.app', gitLink : 'https://github.com/yukooome/Javascript/tree/main/tableau-ordre' },
 
 
-    { title: 'Formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app' },
-    { title: 'Tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app' },
-    { title: 'Tailwind', description: 'Html-CSS - pas responsive', link: 'https://tailwind-mu-two.vercel.app' },
-    { title: 'Animation', description: 'Html-CSS - pas responsive', link: 'https://animation-lac-iota.vercel.app' },
-    { title: 'Responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app' },
-
-    // { title: 'Projet 4', description: 'Description du projet 4', link: '#' },
-    // { title: 'Projet 5', description: 'Description du projet 5', link: '#' },
-    // { title: 'Projet 6', description: 'Description du projet 6', link: '#' },
+    { title: 'Formulaire', description: 'Html-CSS-JS', link: 'https://html-css-three-lyart.vercel.app', gitLink : 'https://github.com/yukooome/HTML_CSS/tree/main/Formulaire.exo' },
+    { title: 'Tableau', description: 'Html-CSS', link: 'https://html-css-omega-khaki.vercel.app', gitLink : 'https://github.com/yukooome/HTML_CSS/tree/main/tableaux' },
+    { title: 'Tailwind', description: 'Html-CSS - pas responsive', link: 'https://tailwind-mu-two.vercel.app', gitLink : 'https://github.com/yukooome/HTML_CSS/tree/main/tailwind' },
+    { title: 'Animation', description: 'Html-CSS - pas responsive', link: 'https://animation-lac-iota.vercel.app', gitLink : 'https://github.com/yukooome/HTML_CSS/tree/main/animations' },
+    { title: 'Responsive', description: 'Html-CSS', link: 'https://onizuka-flax.vercel.app', gitLink : 'https://github.com/yukooome/HTML_CSS/tree/main/exo-responsive' },
   ];
 
   const digitalProjects = [
@@ -98,7 +97,34 @@ function Projects() {
             <div key={index} className="project-card">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <a href={project.link} className="digital-project-btn" target="_blank" rel="noopener noreferrer">Voir plus</a>
+
+              {/* <a href={project.link} className="digital-project-btn" target="_blank" rel="noopener noreferrer">Voir plus</a>
+
+              <a href={project.link} className="digital-project-btn" target="_blank" rel="noopener noreferrer">Voir plus</a> */}
+              
+              
+              <div className="btn-container">
+              {/* Bouton vers le projet avec l'icône œil */}
+              <a
+                href={project.link}
+                className="btn-projet-web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faEye} className="icon" /> {/* Icône d'œil */}
+              </a>
+
+              {/* Bouton vers GitHub avec l'icône GitHub */}
+              <a
+                href={project.gitLink}
+                className="btn-projet-web-git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="icon" /> {/* Icône GitHub */}
+              </a>
+            </div>
+
             </div>
           ))}
         </div>
