@@ -57,4 +57,34 @@
     font-size: 16px;
     padding: 0 10px;
   }
+
+  /* Ajustement de la taille de l'image pour les écrans moyens */
+  .about-content img {
+    max-width: 120px;  /* Réduit la taille maximale de l'image */
+    max-height: 120px; /* Réduit également la hauteur maximale */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ajustement pour les tablettes ou petits écrans */
+  .about-content img {
+    max-width: 100px;  /* Taille maximale de l'image encore plus petite */
+    max-height: 100px; /* Réduit aussi la hauteur maximale */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section h2 {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  /* Réduit la taille de l'image pour les très petits écrans */
+  .about-content img {
+    max-width: 80px;  /* Taille maximale encore plus petite */
+    max-height: 80px; /* Réduit aussi la hauteur maximale */
+  }
 }
