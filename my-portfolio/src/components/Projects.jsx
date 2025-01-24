@@ -13,6 +13,11 @@ function Projects() {
   const competencesContainerRef = useRef(null); // Référence au conteneur des projets web
   const digitalProjectsContainerRef = useRef(null); // Référence au conteneur des projets numériques
 
+  const [filter, setFilter] = useState('All'); // 'All' par défaut
+  const [filterDigital, setFilterDigital] = useState('All'); // 'All' par défaut pour les projets numériques
+
+
+
   const featuredProjects = [
     { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/', gitLink : 'https://github.com/yukooome/Projet-React' },
     { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/Pokemons' },
@@ -75,15 +80,29 @@ function Projects() {
     }
   ];
 
-  const openModal = (project) => {
+
+  // Filtrer les projets selon le filtre sélectionné
+    const filteredProjects = featuredProjects.filter((project) => {
+      if (filter === 'All') return true;
+      return project.description.includes(filter);
+    });
+
+    const filteredDigitalProjects = digitalProjects.filter((project) => {
+      if (filterDigital === 'All') return true;
+      return project.title.includes(filterDigital);
+    });
+    
+
+
+    const openModal = (project) => {
     setModalProject(project); // Met à jour tout le projet sélectionné dans l'état
     setIsModalOpen(true);
-  };
+    };
 
-  const closeModal = () => {
+    const closeModal = () => {
     setIsModalOpen(false);
     setModalProject(null);
-  };
+    };
 
   // Fonction pour rendre les projets web avec défilement
   const renderOtherProjects = (projects) => {
@@ -203,11 +222,34 @@ function Projects() {
       <div className="projects-container">
         <h2>Projets web</h2>
         <p>Depuis avril, j'ai commencé à travailler sur plusieurs projets/exercices en utilisant différents langages comme JavaScript et React, ainsi que Node.js pour le backend. Pour le design, j'ai exploré le CSS, SCSS, et Tailwind, ce qui m'a permis de m'exercer tout en m'amusant. J'ai également eu l'occasion de partager mes passions, notamment celle pour le manga, avec les autres. Ce que j'ai particulièrement apprécié dans ce parcours, c'est que le développement laisse libre cours à la créativité: le seul frein, c'est nous-mêmes. Chaque projet est un moyen de repousser ses propres limites.</p>
-        {renderOtherProjects(featuredProjects)}
+
+        {/* Filtre pour les projets web */}
+        <div className="filter-container">
+          <button onClick={() => setFilter('All')} className="filter-btn">Tous</button>
+          <button onClick={() => setFilter('React')} className="filter-btn">React</button>
+          <button onClick={() => setFilter('JS')} className="filter-btn">JavaScript</button>
+          <button onClick={() => setFilter('Html-CSS')} className="filter-btn">HTML-CSS</button>
+        </div>
+
+
+
+
+        {/* {renderOtherProjects(featuredProjects)} */}
+        {renderOtherProjects(filteredProjects)} 
+
 
         <h2>Projets Numériques</h2>
         <p>En découvrant l'art numérique à travers des outils comme Illustrator, Photoshop et Animate, j'ai ouvert la porte à une toute nouvelle façon de créer et de partager ma passion. Ce fut une expérience incroyablement enrichissante, me permettant de repousser les limites de ma créativité. L'art numérique offre des possibilités infinies, et je suis enthousiaste à l'idée de continuer à explorer et à me perfectionner dans ces techniques. Chaque jour, j'apprends de nouvelles façons d'exprimer mon imagination dans cet univers riche et sans frontières.</p>
-        {renderDigitalProjects(digitalProjects)}
+
+        <div className="filter-container">
+          <button onClick={() => setFilterDigital('All')} className="filter-btn">Tous</button>
+          <button onClick={() => setFilterDigital('Illustrator')} className="filter-btn">Illustrator</button>
+          <button onClick={() => setFilterDigital('Procreate')} className="filter-btn">Procreate</button>
+        </div>
+
+        {/* {renderDigitalProjects(digitalProjects)} */}
+        {renderDigitalProjects(filteredDigitalProjects)}
+
       </div>
 
       {isModalOpen && modalProject && ( // Vérifie que modalProject existe avant de l'afficher
