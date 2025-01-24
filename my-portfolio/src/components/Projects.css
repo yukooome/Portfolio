@@ -235,6 +235,7 @@
   justify-content: center;
   gap: 15px;
   margin: 20px 0;
+  flex-wrap: wrap; /* Pour s'assurer que les boutons se réorganisent sur les petits écrans */
 }
 
 /* Style des boutons de filtre */
@@ -248,6 +249,8 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  flex-grow: 0; /* Assure-toi que les boutons ne s'étendent pas de manière disproportionnée */
+  min-width: 120px; /* Fixe une taille minimale */
 }
 
 /* Effet au survol des boutons */
@@ -291,6 +294,11 @@
   .icon {
     font-size: 20px; /* Réduire la taille des icônes */
   }
+
+  .filter-btn {
+    font-size: 0.95rem;
+    padding: 9px 18px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -326,8 +334,8 @@
   }
 
   .filter-btn {
-    padding: 8px 16px;
     font-size: 0.9rem;
+    padding: 8px 16px;
   }
 
 }
@@ -369,7 +377,7 @@
   }
 
   .filter-btn {
-    padding: 6px 12px;
     font-size: 0.8rem;
+    padding: 7px 14px;
   }
 }
