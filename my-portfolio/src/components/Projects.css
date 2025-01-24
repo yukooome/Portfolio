@@ -207,8 +207,8 @@
 
 /* btn */
 .digital-project-btn {
-  background-color: #00d4ff;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -219,7 +219,8 @@
 }
 
 .digital-project-btn:hover {
-  background-color: #009dbf;
+  background-color: #00d4ff;
+  /* color: #ffffff; */
   transform: scale(1.1);
 }
 
