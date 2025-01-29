@@ -62,6 +62,12 @@ function Projects() {
       titre: "Croquis de Meruem",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Meruem, un personnage emblématique du manga HxH, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique, sur base d'une scène Manga."
     },
+
+    { title: 'Procreate', description: 'Croquis de Madara', link: './assets/img/madaraPro.jpg',
+      titre: "Croquis de Madara",
+      text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Madara, un personnage culte du manga Naruto."
+    },
+
     { title: 'Procreate', description: 'Croquis de Guts', link: './assets/img/ProGuts.jpg',
       titre: "Croquis de Guts",
       text: "Ce croquis a été réalisé à l'aide de l'outil Procreate sur tablette Apple. Il représente Guts, un personnage culte du manga Berserk. Il a servi de base pour la création d'un tableau qui est déjà achevé sur bois."
