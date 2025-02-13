@@ -19,6 +19,7 @@ function Projects() {
 
 
   const featuredProjects = [
+    { title: 'Artify', description: 'React-Wp - en cours', link: 'https://react-swart-seven.vercel.app/', gitLink : 'https://github.com/yukooome/React/tree/main/wp-react' },
     { title: 'Artcadabra', description: 'React - en cours', link: 'https://artcadabra.vercel.app/', gitLink : 'https://github.com/yukooome/React/tree/main/artcadabra' },
     { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/', gitLink : 'https://github.com/yukooome/Projet-React' },
     { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/Pokemons' },
