@@ -19,7 +19,7 @@ function Projects() {
 
 
   const featuredProjects = [
-    { title: 'Artify', description: 'React-Wp - en cours', link: 'https://react-swart-seven.vercel.app/', gitLink : 'https://github.com/yukooome/React/tree/main/wp-react' },
+    { title: 'Artify', description: 'React-Wp - en cours', link: 'https://artify-seven.vercel.app/', gitLink : 'https://github.com/yukooome/React/tree/main/artify' },
     { title: 'Artcadabra', description: 'React - en cours', link: 'https://artcadabra.vercel.app/', gitLink : 'https://github.com/yukooome/React/tree/main/artcadabra' },
     { title: 'MangaKo', description: 'React - en cours', link: 'https://projet-react-eosin.vercel.app/', gitLink : 'https://github.com/yukooome/Projet-React' },
     { title: 'Pokedex', description: 'React', link: 'https://pokemons-pearl-ten.vercel.app', gitLink : 'https://github.com/yukooome/React/tree/main/Pokemons' },
@@ -85,7 +85,7 @@ function Projects() {
     { title: 'Procreate', description: 'Croquis de Zaraki', link: './assets/img/proZaraki.jpg',
       titre: "Croquis de Zaraki",
       text: "Ce croquis a été réalisé avec l'application Procreate sur une tablette Apple. Il représente Zaraki, un personnage emblématique du manga Bleach, et a été conçu dans le but de réaliser un tableau. Cet exercice m'a permis de perfectionner mes techniques de dessin tout en capturant l'essence de ce personnage iconique."
-    }
+    },
   ];
 
 
