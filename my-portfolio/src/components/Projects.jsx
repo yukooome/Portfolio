@@ -247,7 +247,10 @@ function Projects() {
 
 
         <h2>Projets Numériques</h2>
-        <p>En découvrant l'art numérique à travers des outils comme Illustrator, Photoshop et Animate, j'ai ouvert la porte à une toute nouvelle façon de créer et de partager ma passion. Ce fut une expérience incroyablement enrichissante, me permettant de repousser les limites de ma créativité. L'art numérique offre des possibilités infinies, et je suis enthousiaste à l'idée de continuer à explorer et à me perfectionner dans ces techniques. Chaque jour, j'apprends de nouvelles façons d'exprimer mon imagination dans cet univers riche et sans frontières.</p>
+        <p>En découvrant l'art numérique à travers des outils comme Illustrator, Photoshop et Animate, j'ai ouvert la porte à une toute nouvelle façon de créer et de partager ma passion. Ce fut une expérience incroyablement enrichissante, me permettant de repousser les limites de ma créativité. L'art numérique offre des possibilités infinies, et je suis enthousiaste à l'idée de continuer à explorer et à me perfectionner dans ces techniques. Chaque jour, j'apprends de nouvelles façons d'exprimer mon imagination dans cet univers riche et sans frontières.
+
+Pour suivre mon évolution créative et mon apprentissage en dessin numérique, je vous invite à explorer mon univers artistique à travers un site que j'ai moi-même conçu en React. Vous y trouverez quelques-unes de mes œuvres digitales, et pour en découvrir davantage, cliquez sur le lien <a className='lien' href="https://artify-art-sigma.vercel.app/" target="_blank">Artify</a>.
+        </p>
 
         <div className="filter-container">
           <button onClick={() => setFilterDigital('All')} className="filter-btn">Tous</button>
